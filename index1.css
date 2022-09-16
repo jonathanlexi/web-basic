@@ -1,0 +1,33 @@
+
+.container-flex,.container-grid{
+    margin: 20px 20px;
+   
+   
+}
+
+.container-flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+.container-grid{
+    display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+
+
+.container-flex div{
+    
+   
+    border: 2px solid black;
+    padding: 10px;
+    
+}
+
+.container-grid div{
+    
+    border: 2px solid black;
+     padding: 10px;
+}
